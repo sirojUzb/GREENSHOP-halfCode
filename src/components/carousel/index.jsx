@@ -1,5 +1,5 @@
 import { Carousel } from "antd";
-import Slide1 from "./slide-1";
+import Slide1 from "./slide";
 
 const SlideSection = () => {
   return (
