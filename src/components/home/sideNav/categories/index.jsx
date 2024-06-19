@@ -47,31 +47,6 @@ const Categories = () => {
                 <h3>({category.count})</h3>
               </div>
             ))}
-
-        {/* <div className="w-full flex justify-between items-center mt-[7px] hover:text-[#46A358] cursor-pointer">
-          <h3>House Plants</h3>
-          <h3>(12)</h3>
-        </div>
-        <div className="w-full flex justify-between items-center mt-[7px] hover:text-[#46A358] cursor-pointer">
-          <h3>House Plants</h3>
-          <h3>(12)</h3>
-        </div>
-        <div className="w-full flex justify-between items-center mt-[7px] hover:text-[#46A358] cursor-pointer">
-          <h3>House Plants</h3>
-          <h3>(12)</h3>
-        </div>
-        <div className="w-full flex justify-between items-center mt-[7px] hover:text-[#46A358] cursor-pointer">
-          <h3>House Plants</h3>
-          <h3>(12)</h3>
-        </div>
-        <div className="w-full flex justify-between items-center mt-[7px] hover:text-[#46A358] cursor-pointer">
-          <h3>House Plants</h3>
-          <h3>(12)</h3>
-        </div>
-        <div className="w-full flex justify-between items-center mt-[7px] hover:text-[#46A358] cursor-pointer">
-          <h3>House Plants</h3>
-          <h3>(12)</h3>
-        </div> */}
       </div>
     </div>
   );
