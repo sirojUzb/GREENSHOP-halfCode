@@ -14,4 +14,5 @@ function App() {
 }
 
 export default App;
-// 31-daqiqadan kor
+// 2-video 14-daqiqadan ko'r
+// check greenshop2024
