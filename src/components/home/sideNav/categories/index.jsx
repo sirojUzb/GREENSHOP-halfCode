@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Skeleton } from "antd";
-import { useSearchParams } from "react-router-dom";
+import { useSearchParams } from "../../../../hooks/useSearchParams";
 
 const Categories = () => {
-  const [get, set] = useSearchParams();
+  const { getParams, setParams } = useSearchParams();
   const [loading, setLoading] = useState(false);
   const [categories, setCategories] = useState([]);
 
@@ -20,7 +20,7 @@ const Categories = () => {
     })();
   }, []);
 
-  const selectedCategory = get.get("category") ?? "house-plants";
+  const selectedCategory = getParams("category") ?? "house-plants";
   const normal_text =
     "w-full flex justify-between items-center mt-[7px] hover:text-[#46a358] cursor-pointer";
   const active_text =
@@ -41,7 +41,7 @@ const Categories = () => {
                     ? active_text
                     : normal_text
                 }
-                onClick={() => set({ category: category.route_path })}
+                onClick={() => setParams({ category: category.route_path })}
               >
                 <h3>{category.title}</h3>
                 <h3>({category.count})</h3>
