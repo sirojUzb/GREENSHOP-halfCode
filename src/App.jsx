@@ -1,19 +1,13 @@
-import { Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
+import CarouselSection from "./components/carousel-section";
 import Navbar from "./components/navbar";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Routes>
-        <Route index element={<Home />} />
-      </Routes>
+      <CarouselSection />
     </div>
   );
 }
 
 export default App;
-// Greenshop 2nd video done
-// cashe's video 2 minute 19
-// I've to check.
