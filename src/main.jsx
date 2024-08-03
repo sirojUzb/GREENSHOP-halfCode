@@ -7,4 +7,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </div>
 );
-// 1-dars 2-video 19-daqiqadan boshla
