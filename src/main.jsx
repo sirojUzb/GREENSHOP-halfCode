@@ -7,3 +7,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </div>
 );
+
+// revised 2nd and 3rd lessons
