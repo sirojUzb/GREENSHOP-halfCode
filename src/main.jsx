@@ -8,4 +8,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   </div>
 );
 
-// revised 2nd and 3rd lessons
+// home page
