@@ -7,8 +7,8 @@ const Home = () => {
     <div>
       <CarouselSection />
       <div className="flex w-[80%] m-auto mt-[46px] gap-8">
-        <Category />
         <SideNav />
+        <Category />
       </div>
     </div>
   );
