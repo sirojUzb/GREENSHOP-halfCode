@@ -4,10 +4,11 @@ import { useSearchParams } from "../../../../hooks/useSearchParams";
 
 const PriceRange = () => {
   const { getParams, setParams } = useSearchParams();
+
   const min = Number(getParams("min") ?? 0);
   const max = Number(getParams("max") ?? 1500);
 
-  const [range, setRange] = useState(min, max);
+  const [range, setRange] = useState([min, max]);
 
   return (
     <div className="mt-[38px]">
