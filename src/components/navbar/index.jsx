@@ -40,7 +40,8 @@ const Navbar = () => {
           type="button"
           className="w-[100px] h-[35px] animate-bounce gap-2 flex items-center justify-center text-white rounded-[6px] bg-[#46A358] cursor-pointer"
         >
-          <LoginOutlined /> Login
+          <LoginOutlined />
+          LOGIN
         </button>
       </div>
     </div>
